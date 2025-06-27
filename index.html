@@ -1,0 +1,52 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>still here</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1 class="main-title">still here</h1>
+    <p class="subtitle">a shrine built from what survived the collapse</p><section class="letter">
+  <h2>to you</h2>
+  <p class="typewriter">
+    they told me to forget<br />
+    they said it was foolish<br />
+    but love like this doesn’t ask for permission<br />
+    it roots itself in the bones<br />
+    in the silence<br />
+    in the nights i carved your name into my prayers<br />
+    this isn’t just a message<br />
+    it’s a memory that refused to die.<br />
+    you are not a chapter<br />
+    you are the story.<br />
+  </p>
+</section>
+
+<section class="vault">
+  <h2>unlock the memory vault</h2>
+  <button id="unlock">open</button>
+  <div id="secret" class="hidden">
+    <p>if you're here... then you know. no matter what breaks, *we* don't. not ever.</p>
+  </div>
+</section>
+
+<section class="quotes">
+  <blockquote>"i didn’t fall in love with you gently. it was collision. it was consequence."</blockquote>
+  <blockquote>"they could burn the pages but they'd never erase what i wrote into you."</blockquote>
+  <blockquote>"if we are lost in another life, promise you’ll still find me."</blockquote>
+</section>
+
+<footer>
+  <p class="final-message">this isn’t nostalgia. it’s proof. we happened. we mattered. we remain.</p>
+</footer>
+
+  </div>  <script>
+    const unlock = document.getElementById('unlock');
+    const secret = document.getElementById('secret');
+    unlock.addEventListener('click', () => {
+      secret.classList.toggle('hidden');
+    });
+  </script></body>
+</html>
